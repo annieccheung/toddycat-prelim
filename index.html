@@ -1,20 +1,36 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>ToddyCat</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <title>ToddyCat</title>
+  </head>
+  <body>
 
-  <header role="banner">
-    <h1>Toddy Cat</h1>
-  </header>
+    <header role="banner">
+      <h1>Toddy Cat</h1>
+    </header>
 
-  <main role="main">
-  </main>
+    <main role="main">
+      <form id="login-form" method="post" action="#" accept-charset="UTF-8">
+        <div>
+          <label for="user_email">Email</label>
+          <input type="text" id="user_email" name="user[email]" placeholder="Email Address">
+        </div>
 
-  <footer>
-  </footer>
+        <div>
+          <label for="user_password">Password</label>
+          <input type="password" id="user_password" name="user[password]" placeholder="Password">
+        </div>
 
-</body>
+        <div>
+          <input type="submit" value="Sign In">
+        </div>
+      </form>
+
+    </main>
+
+    <footer>
+    </footer>
+
+  </body>
 </html>
